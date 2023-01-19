@@ -1,0 +1,15 @@
+[package]
+name = "calculate_date"
+version = "0.1.0"
+authors = [ "Jonatas Oliveira <contact@jonatasoliveira.dev>"]
+edition = "2021"
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+path = "src/main.rs"
+name = "calculate_date"
+
+[dependencies]
+chrono = "0.4.23"
